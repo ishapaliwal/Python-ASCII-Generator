@@ -12,15 +12,18 @@ Robert Pless
 
 ## Understanding the Problem and Project Scope:
 The **ASCII Art Generator** is a Python tool that transforms images into text-based artwork by mapping pixel brightness to ASCII characters. The input can be any standard image format (e.g., JPG, PNG), and the output is a text file that visually represents the image using a sequence of ASCII characters. The goal of this project is to provide a creative, yet simple method for generating ASCII art that can be used in various settings.
+
 ---
 
 ## Who Would Care?
 This tool would be useful to developers, digital artists, and educators alike. Developers could incorporate it into command-line interfaces for fun or practical visual outputs, while artists might explore new forms of creative expression. Educators can use this project to introduce fundamental concepts in image processing, coding, and visual data representation.
+
 ---
 
 ## Python Script for Project:
 The following Python script includes all the essential functions for image manipulation, such as resizing the image to a suitable width, converting it to grayscale, and mapping the grayscale pixel values to corresponding ASCII characters.
 [ASCII Art generator.ipynb](https://github.com/ishapaliwal/Python-ASCII-Generator)
+
 ---
 
 ## Our Approach:
@@ -33,6 +36,7 @@ This method is efficient, straightforward, and effective in turning images into 
 
 ## Challenges:
 One of the key challenges lies in selecting ASCII characters that accurately convey varying shades of gray while still allowing the image to remain identifiable. The grayscale conversion and resizing can also obscure intricate details, making it difficult to maintain high fidelity in more detailed images. Achieving a balance between simplicity and recognizability is critical.
+
 ---
 
 ## Tools and Resources:
